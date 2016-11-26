@@ -9,6 +9,10 @@ import static java.lang.System.*;
  */
 public class SumInt {
     public static void main(String[] args) {
+        new SumInt().run();
+    }
+
+    public void run() {
         int I1 = 0;
         int I2 = 0;
         int I3 = 0;
@@ -28,5 +32,4 @@ public class SumInt {
             out.println("Error data");
         }
     }
-
 }
