@@ -26,12 +26,13 @@ public class RUB50 {
                 m = m - 5 * i5;
                 i2 = (int)m / 2;
                 i1 = (m % 2);
-                System.out.print(i10+" "+ i5 + " " + i2 + " " + i1);
+                System.out.println(i10+" "+ i5 + " " + i2 + " " + i1);
             } else {
-                System.out.print("Value mast be in range (0..50)");
+                System.out.println("Value mast be in range (0..50)");
             }
         } catch (Exception e) {
-            System.out.print("Error data");
+            System.out.println("Error data");
         }
+        System.out.println();
     }
 }

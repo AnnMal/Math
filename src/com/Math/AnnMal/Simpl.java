@@ -29,11 +29,13 @@ public class Simpl {
                     }
                 }
             } else {
-                System.out.print("Value mast be [1..1000]");
+                System.out.println("Value mast be [1..1000]");
             }
         } catch (Exception e) {
-            System.out.print("Error data");
+            System.out.println("Error data");
         }
+        System.out.println();
+        System.out.println();
     }
 
 }

@@ -26,10 +26,11 @@ public class SumInt {
             if ((i1+i2==i3)|(i1+i3==i2)|(i2+i3==i1)) {
                 out.println("YES");
             } else out.println("NO");
-            out.println(i1+" "+i2+" "+i3);
+            //out.println(i1+" "+i2+" "+i3);
 
         } catch (Exception e) {
             out.println("Error data");
         }
+        System.out.println();
     }
 }
