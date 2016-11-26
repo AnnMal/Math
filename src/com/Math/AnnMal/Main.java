@@ -5,6 +5,7 @@ package com.Math.AnnMal;
  */
 public class Main {
     public static void main(String[] args) {
-        new SumInt().run();
+ //       new SumInt().run();
+        new RUB50().run();
     }
 }
