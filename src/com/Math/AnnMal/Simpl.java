@@ -24,7 +24,7 @@ public class Simpl {
                             b = true; break;
                         }
                     }
-                    if (b==false) {
+                    if (!b) {
                         System.out.print(i+" ");
                     }
                 }
