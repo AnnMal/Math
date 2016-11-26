@@ -17,19 +17,16 @@ public class RUB50 {
         System.out.print("Odd money: ");
         try {
             Scanner sc = new Scanner(System.in);
-            int I1 = 0, I2 = 0, I5 = 0, I10 = 0;
-            int M = sc.nextInt();
-            if ((0 < M) && (M < MY_MONEY)) {
-                I10 = (int) M / 10;
-                System.out.print(I10 + " ");
-                M = M - 10 * I10;
-                I5 = (int) M / 5;
-                System.out.print(I5 + " ");
-                M = M - 5 * I5;
-                I2 = (int)M / 2;
-                System.out.print(I2 + " ");
-                I1 = (M % 2);
-                System.out.print(I1 + " ");
+            int i1 = 0, i2 = 0, i5 = 0, i10 = 0;
+            int m = sc.nextInt();
+            if ((0 < m) && (m < MY_MONEY)) {
+                i10 = (int) m / 10;
+                m = m - 10 * i10;
+                i5 = (int) m / 5;
+                m = m - 5 * i5;
+                i2 = (int)m / 2;
+                i1 = (m % 2);
+                System.out.print(i10+" "+ i5 + " " + i2 + " " + i1);
             } else {
                 System.out.print("Value mast be in range (0..50)");
             }

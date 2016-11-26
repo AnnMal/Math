@@ -13,20 +13,20 @@ public class SumInt {
     }
 
     public void run() {
-        int I1 = 0;
-        int I2 = 0;
-        int I3 = 0;
+        int i1 = 0;
+        int i2 = 0;
+        int i3 = 0;
         out.println("Input 3 integer: ");
         Scanner sc;
         sc = new Scanner(System.in);
         try {
-            I1 = sc.nextInt();
-            I2 = sc.nextInt();
-            I3 = sc.nextInt();
-            if ((I1+I2==I3)|(I1+I3==I2)|(I2+I3==I1)) {
+            i1 = sc.nextInt();
+            i2 = sc.nextInt();
+            i3 = sc.nextInt();
+            if ((i1+i2==i3)|(i1+i3==i2)|(i2+i3==i1)) {
                 out.println("YES");
             } else out.println("NO");
-            out.println(I1+" "+I2+" "+I3);
+            out.println(i1+" "+i2+" "+i3);
 
         } catch (Exception e) {
             out.println("Error data");
